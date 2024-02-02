@@ -1,0 +1,85 @@
+#flight_search {
+    background-color: #05203C;
+}
+.checkbox {
+    margin-top: 2%;
+    margin-left: 10%;
+}
+.ui.checkbox label {
+    color: white !important;
+    font-size: large;
+}
+.ui.primary.button {
+    margin-left: 2%;
+}
+#from_div {
+    margin-left: 5%;
+}
+.input {
+    border: 2px solid black; 
+}
+#from::placeholder, #to::placeholder {
+    color: black;
+}
+#img_container {
+    width: max-content;
+    margin: auto;
+    margin-top: 3%;
+}
+.ui.negative.message {
+    text-align: center;
+}
+.ui.dropdown {
+    margin-top: 1%;
+    margin-left: 2%;
+}
+.react-datepicker__tab-loop {
+    display: inline flow-root list-item
+}
+.p-autocomplete-panel{
+    position: absolute !important;
+    height: min-content;
+
+   
+}
+.p-autocomplete-items-wrapper {
+    max-height: initial !important;
+}
+
+::placeholder {
+    color: black!important;
+}
+#to_list, #from_list {
+    list-style-type: none !important;
+}
+#home_img {
+    display: inline-block;
+    max-width: 90%;
+    max-height: 600px;
+    margin-top: 5%;
+}
+#home_img_container {
+    margin:auto;
+    width: 70%;
+    max-height: 600px;
+    height: 600px;
+    margin-top: 3%;
+}
+#beach_div {
+    padding-top: 10rem;
+    padding-left: 5rem;
+}
+.beach_span {
+    display: block;
+    color: white;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    font-weight: 700;
+    letter-spacing: -.02em;
+}
+.beach_p {
+    font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: white;
+}

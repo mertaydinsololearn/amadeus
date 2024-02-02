@@ -1,0 +1,1784 @@
+{
+    "flights": {
+      "Tue Sep 12 2023": [
+        {
+          "departure_airport": "IST",
+          "arrival_airport": "AYT",
+          "departure_date": "2023-09-12T10:30:00",
+          "arrival_date": "2023-09-12T12:00:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "IST",
+              "city": "İstanbul",
+              "airport_name": "İstanbul Havalimanı"
+            },
+            "arrival": {
+              "code": "AYT",
+              "city": "Antalya",
+              "airport_name": "Antalya Havalimanı"
+            }
+          },
+          "price": 160.00,
+          "additional_info": {
+            "flight_number": "PG123",
+            "available_seats": 100,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "ADB",
+          "arrival_airport": "ESB",
+          "departure_date": "2023-09-12T13:45:00",
+          "arrival_date": "2023-09-12T15:15:00",
+          "company": "Turkish Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "ADB",
+              "city": "İzmir",
+              "airport_name": "Adnan Menderes Havalimanı"
+            },
+            "arrival": {
+              "code": "ESB",
+              "city": "Ankara",
+              "airport_name": "Ankara Esenboğa Havalimanı"
+            }
+          },
+          "price": 180.00,
+          "additional_info": {
+            "flight_number": "TK456",
+            "available_seats": 110,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "SAW",
+          "arrival_airport": "AYT",
+          "departure_date": "2023-09-12T14:00:00",
+          "arrival_date": "2023-09-12T15:30:00",
+          "company": "AnadoluJet",
+          "airport_info": {
+            "departure": {
+              "code": "SAW",
+              "city": "İstanbul",
+              "airport_name": "Sabıha Gökçen Uluslararası Havalimanı"
+            },
+            "arrival": {
+              "code": "AYT",
+              "city": "Antalya",
+              "airport_name": "Antalya Havalimanı"
+            }
+          },
+          "price": 150.00,
+          "additional_info": {
+            "flight_number": "AJ789",
+            "available_seats": 80,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "GZT",
+          "arrival_airport": "IST",
+          "departure_date": "2023-09-12T11:30:00",
+          "arrival_date": "2023-09-12T13:00:00",
+          "company": "AtlasGlobal",
+          "airport_info": {
+            "departure": {
+              "code": "GZT",
+              "city": "Gaziantep",
+              "airport_name": "Oğuzeli Havalimanı"
+            },
+            "arrival": {
+              "code": "IST",
+              "city": "İstanbul",
+              "airport_name": "İstanbul Havalimanı"
+            }
+          },
+          "price": 190.00,
+          "additional_info": {
+            "flight_number": "KK123",
+            "available_seats": 120,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "ERZ",
+          "arrival_airport": "DLM",
+          "departure_date": "2023-09-12T14:30:00",
+          "arrival_date": "2023-09-12T16:00:00",
+          "company": "AnadoluJet",
+          "airport_info": {
+            "departure": {
+              "code": "ERZ",
+              "city": "Erzurum",
+              "airport_name": "Erzurum Havalimanı"
+            },
+            "arrival": {
+              "code": "DLM",
+              "city": "Dalaman",
+              "airport_name": "Dalaman Havalimanı"
+            }
+          },
+          "price": 170.00,
+          "additional_info": {
+            "flight_number": "AJ123",
+            "available_seats": 95,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "IST",
+          "arrival_airport": "KCM",
+          "departure_date": "2023-09-12T13:00:00",
+          "arrival_date": "2023-09-12T14:30:00",
+          "company": "SunExpress",
+          "airport_info": {
+            "departure": {
+              "code": "IST",
+              "city": "İstanbul",
+              "airport_name": "İstanbul Havalimanı"
+            },
+            "arrival": {
+              "code": "KCM",
+              "city": "Kahramanmaraş",
+              "airport_name": "Kahramanmaraş Havalimanı"
+            }
+          },
+          "price": 160.00,
+          "additional_info": {
+            "flight_number": "XQ123",
+            "available_seats": 75,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "SZF",
+          "arrival_airport": "AJI",
+          "departure_date": "2023-09-12T17:00:00",
+          "arrival_date": "2023-09-12T18:30:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "SZF",
+              "city": "Samsun",
+              "airport_name": "Samsun-Çarşamba Havalimanı"
+            },
+            "arrival": {
+              "code": "AJI",
+              "city": "Ağrı",
+              "airport_name": "Ağrı Havalimanı"
+            }
+          },
+          "price": 185.00,
+          "additional_info": {
+            "flight_number": "PG234",
+            "available_seats": 105,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "Zonguldak",
+          "arrival_airport": "ECN",
+          "departure_date": "2023-09-12T15:30:00",
+          "arrival_date": "2023-09-12T17:00:00",
+          "company": "AtlasGlobal",
+          "airport_info": {
+            "departure": {
+              "code": "Zonguldak",
+              "city": "ONQ",
+              "airport_name": "Zonguldak Havalimanı"
+            },
+            "arrival": {
+              "code": "ECN",
+              "city": "Ercan",
+              "airport_name": "Ercan Uluslararası Havalimanı"
+            }
+          },
+          "price": 195.00,
+          "additional_info": {
+            "flight_number": "KK234",
+            "available_seats": 115,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "KSY",
+          "arrival_airport": "MLX",
+          "departure_date": "2023-09-12T16:00:00",
+          "arrival_date": "2023-09-12T17:30:00",
+          "company": "Turkish Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "KSY",
+              "city": "Kars",
+              "airport_name": "Kars Harakani Havalimanı"
+            },
+            "arrival": {
+              "code": "MLX",
+              "city": "Malatya",
+              "airport_name": "Malatya Erhaç Havalimanı"
+            }
+          },
+          "price": 175.00,
+          "additional_info": {
+            "flight_number": "TK234",
+            "available_seats": 85,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "IST",
+          "arrival_airport": "DIY",
+          "departure_date": "2023-09-12T18:00:00",
+          "arrival_date": "2023-09-12T19:30:00",
+          "company": "AnadoluJet",
+          "airport_info": {
+            "departure": {
+              "code": "IST",
+              "city": "İstanbul",
+              "airport_name": "İstanbul Havalimanı"
+            },
+            "arrival": {
+              "code": "DIY",
+              "city": "Diyarbakır",
+              "airport_name": "Diyarbakır Havalimanı"
+            }
+          },
+          "price": 170.00,
+          "additional_info": {
+            "flight_number": "AJ567",
+            "available_seats": 95,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "AYT",
+          "arrival_airport": "IST",
+          "departure_date": "2023-09-12T13:30:00",
+          "arrival_date": "2023-09-12T15:00:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "AYT",
+              "city": "Antalya",
+              "airport_name": "Antalya Havalimanı"
+            },
+            "arrival": {
+              "code": "IST",
+              "city": "İstanbul",
+              "airport_name": "İstanbul Havalimanı"
+            }
+          },
+          "price": 160.00,
+          "additional_info": {
+            "flight_number": "PG321",
+            "available_seats": 100,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "ESB",
+          "arrival_airport": "ADB",
+          "departure_date": "2023-09-12T16:45:00",
+          "arrival_date": "2023-09-12T18:15:00",
+          "company": "Turkish Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "ESB",
+              "city": "Ankara",
+              "airport_name": "Esenboğa Havalimanı"
+            },
+            "arrival": {
+              "code": "ADB",
+              "city": "İzmir",
+              "airport_name": "Adnan Menderes Havalimanı"
+            }
+          },
+          "price": 180.00,
+          "additional_info": {
+            "flight_number": "TK321",
+            "available_seats": 110,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "AYT",
+          "arrival_airport": "SAW",
+          "departure_date": "2023-09-12T16:45:00",
+          "arrival_date": "2023-09-12T18:15:00",
+          "company": "AnadoluJet",
+          "airport_info": {
+            "departure": {
+              "code": "AYT",
+              "city": "Antalya",
+              "airport_name": "Antalya Havalimanı"
+            },
+            "arrival": {
+              "code": "SAW",
+              "city": "İstanbul",
+              "airport_name": "Sabıha Gökçen Uluslararası Havalimanı"
+            }
+          },
+          "price": 150.00,
+          "additional_info": {
+            "flight_number": "AJ321",
+            "available_seats": 80,
+            "flight_duration": "1h 30m"
+          }
+        },
+        {
+          "departure_airport": "IST",
+          "arrival_airport": "GZT",
+          "departure_date": "2023-09-12T17:30:00",
+          "arrival_date": "2023-09-12T19:00:00",
+          "company": "AtlasGlobal",
+          "airport_info": {
+            "departure": {
+              "code": "IST",
+              "city": "İstanbul",
+              "airport_name": "İstanbul Havalimanı"
+            },
+            "arrival": {
+              "code": "GZT",
+              "city": "Gaziantep",
+              "airport_name": "Oğuzeli Havalimanı"
+            }
+          },
+          "price": 190.00,
+          "additional_info": {
+            "flight_number": "KK321",
+            "available_seats": 120,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "DLM",
+          "arrival_airport": "ERZ",
+          "departure_date": "2023-09-12T18:00:00",
+          "arrival_date": "2023-09-12T19:30:00",
+          "company": "AnadoluJet",
+          "airport_info": {
+            "departure": {
+              "code": "DLM",
+              "city": "Dalaman",
+              "airport_name": "Dalaman Havalimanı"
+            },
+            "arrival": {
+              "code": "ERZ",
+              "city": "Erzurum",
+              "airport_name": "Erzurum Havalimanı"
+            }
+          },
+          "price": 170.00,
+          "additional_info": {
+            "flight_number": "AJ321",
+            "available_seats": 95,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "KCM",
+          "arrival_airport": "IST",
+          "departure_date": "2023-09-12T14:45:00",
+          "arrival_date": "2023-09-12T16:15:00",
+          "company": "SunExpress",
+          "airport_info": {
+            "departure": {
+              "code": "KCM",
+              "city": "Kahramanmaraş",
+              "airport_name": "Kahramanmaraş Havalimanı"
+            },
+            "arrival": {
+              "code": "IST",
+              "city": "İstanbul",
+              "airport_name": "İstanbul Havalimanı"
+            }
+          },
+          "price": 160.00,
+          "additional_info": {
+            "flight_number": "XQ321",
+            "available_seats": 75,
+            "flight_duration": "1h 30m"
+          }
+        },   {
+          "departure_airport": "AJI",
+          "arrival_airport": "SZF",
+          "departure_date": "2023-09-12T19:45:00",
+          "arrival_date": "2023-09-12T21:15:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "AJI",
+              "city": "Ağrı",
+              "airport_name": "Ağrı Havalimanı"
+            },
+            "arrival": {
+              "code": "SZF",
+              "city": "Samsun",
+              "airport_name": "Samsun-Çarşamba Havalimanı"
+            }
+          },
+          "price": 185.00,
+          "additional_info": {
+            "flight_number": "PG345",
+            "available_seats": 105,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "ECN",
+          "arrival_airport": "Zonguldak",
+          "departure_date": "2023-09-12T20:00:00",
+          "arrival_date": "2023-09-12T21:30:00",
+          "company": "AtlasGlobal",
+          "airport_info": {
+            "departure": {
+              "code": "ECN",
+              "city": "Ercan",
+              "airport_name": "Ercan Uluslararası Havalimanı"
+            },
+            "arrival": {
+              "code": "Zonguldak",
+              "city": "ONQ",
+              "airport_name": "Zonguldak Havalimanı"
+            }
+          },
+          "price": 195.00,
+          "additional_info": {
+            "flight_number": "KK345",
+            "available_seats": 115,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "MLX",
+          "arrival_airport": "KSY",
+          "departure_date": "2023-09-12T20:30:00",
+          "arrival_date": "2023-09-12T22:00:00",
+          "company": "Turkish Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "MLX",
+              "city": "Malatya",
+              "airport_name": "Malatya Erhaç Havalimanı"
+            },
+            "arrival": {
+              "code": "KSY",
+              "city": "Kars",
+              "airport_name": "Kars Harakani Havalimanı"
+            }
+          },
+          "price": 175.00,
+          "additional_info": {
+            "flight_number": "TK345",
+            "available_seats": 85,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "DIY",
+          "arrival_airport": "IST",
+          "departure_date": "2023-09-12T21:45:00",
+          "arrival_date": "2023-09-12T23:15:00",
+          "company": "AnadoluJet",
+          "airport_info": {
+            "departure": {
+              "code": "DIY",
+              "city": "Diyarbakır",
+              "airport_name": "Diyarbakır Havalimanı"
+            },
+            "arrival": {
+              "code": "IST",
+              "city": "İstanbul",
+              "airport_name": "İstanbul Havalimanı"
+            }
+          },
+          "price": 170.00,
+          "additional_info": {
+            "flight_number": "AJ567",
+            "available_seats": 95,
+            "flight_duration": "1h 30m"
+          }
+        }         
+        
+      ],
+      "Wed Sep 13 2023": [
+        {
+          "departure_airport": "IST",
+          "arrival_airport": "AYT",
+          "departure_date": "2023-09-13T10:30:00",
+          "arrival_date": "2023-09-13T12:00:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "IST",
+              "city": "istanbul",
+              "airport_name": "istanbul havalimanı"
+            },
+            "arrival": {
+              "code": "AYT",
+              "city": "Antalya",
+              "airport_name": "Antalya havalimanı"
+            }
+          },
+          "price": 180.00,
+          "additional_info": {
+            "flight_number": "PG123",
+            "available_seats": 100,
+            "flight_duration": "1h 30m"
+          }
+        },
+        {
+          "departure_airport": "IST",
+          "arrival_airport": "ADB",
+          "departure_date": "2023-09-13T14:00:00",
+          "arrival_date": "2023-09-13T15:15:00",
+          "company": "Turkish Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "IST",
+              "city": "istanbul",
+              "airport_name": "istanbul havalimanı"
+            },
+            "arrival": {
+              "code": "ADB",
+              "city": "izmir",
+              "airport_name": "Adnan Menderes havalimanı"
+            }
+          },
+          "price": 160.00,
+          "additional_info": {
+            "flight_number": "TK234",
+            "available_seats": 120,
+            "flight_duration": "1h 15m"
+          }
+        },
+        {
+          "departure_airport": "IST",
+          "arrival_airport": "AYT",
+          "departure_date": "2023-09-13T10:30:00",
+          "arrival_date": "2023-09-13T12:00:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "IST",
+              "city": "İstanbul",
+              "airport_name": "İstanbul Havalimanı"
+            },
+            "arrival": {
+              "code": "AYT",
+              "city": "Antalya",
+              "airport_name": "Antalya Havalimanı"
+            }
+          },
+          "price": 180.00,
+          "additional_info": {
+            "flight_number": "PG123",
+            "available_seats": 100,
+            "flight_duration": "1h 30m"
+          }
+        }, {
+          "departure_airport": "ADB",
+          "arrival_airport": "ESB",
+          "departure_date": "2023-09-13T13:45:00",
+          "arrival_date": "2023-09-13T15:15:00",
+          "company": "Turkish Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "ADB",
+              "city": "İzmir",
+              "airport_name": "Adnan Menderes Havalimanı"
+            },
+            "arrival": {
+              "code": "ESB",
+              "city": "Ankara",
+              "airport_name": "Ankara Esenboğa Havalimanı"
+            }
+          },
+          "price": 200.00,
+          "additional_info": {
+            "flight_number": "TK789",
+            "available_seats": 120,
+            "flight_duration": "1h 30m"
+          }
+        },
+        {
+          "departure_airport": "SAW",
+          "arrival_airport": "AYT",
+          "departure_date": "2023-09-13T14:00:00",
+          "arrival_date": "2023-09-13T15:30:00",
+          "company": "AnadoluJet",
+          "airport_info": {
+            "departure": {
+              "code": "SAW",
+              "city": "İstanbul",
+              "airport_name": "Sabıha Gökçen Uluslararası Havalimanı"
+            },
+            "arrival": {
+              "code": "AYT",
+              "city": "Antalya",
+              "airport_name": "Antalya Havalimanı"
+            }
+          },
+          "price": 150.00,
+          "additional_info": {
+            "flight_number": "AJ456",
+            "available_seats": 80,
+            "flight_duration": "1h 30m"
+          }
+        }, {
+          "departure_airport": "IST",
+          "arrival_airport": "ESB",
+          "departure_date": "2023-09-13T16:30:00",
+          "arrival_date": "2023-09-13T18:00:00",
+          "company": "SunExpress",
+          "airport_info": {
+            "departure": {
+              "code": "IST",
+              "city": "İstanbul",
+              "airport_name": "İstanbul Havalimanı"
+            },
+            "arrival": {
+              "code": "ESB",
+              "city": "Ankara",
+              "airport_name": "Ankara Esenboğa Havalimanı"
+            }
+          },
+          "price": 160.00,
+          "additional_info": {
+            "flight_number": "XQ789",
+            "available_seats": 90,
+            "flight_duration": "1h 30m"
+          }
+        }, {
+          "departure_airport": "GZT",
+          "arrival_airport": "IST",
+          "departure_date": "2023-09-13T11:30:00",
+          "arrival_date": "2023-09-13T13:00:00",
+          "company": "AtlasGlobal",
+          "airport_info": {
+            "departure": {
+              "code": "GZT",
+              "city": "Gaziantep",
+              "airport_name": "Oğuzeli Havalimanı"
+            },
+            "arrival": {
+              "code": "IST",
+              "city": "İstanbul",
+              "airport_name": "İstanbul Havalimanı"
+            }
+          },
+          "price": 190.00,
+          "additional_info": {
+            "flight_number": "KK234",
+            "available_seats": 110,
+            "flight_duration": "1h 30m"
+          }
+        }, 
+        {
+          "departure_airport": "ERZ",
+          "arrival_airport": "DLM",
+          "departure_date": "2023-09-13T14:30:00",
+          "arrival_date": "2023-09-13T16:00:00",
+          "company": "AnadoluJet",
+          "airport_info": {
+            "departure": {
+              "code": "ERZ",
+              "city": "Erzurum",
+              "airport_name": "Erzurum Havalimanı"
+            },
+            "arrival": {
+              "code": "DLM",
+              "city": "Dalaman",
+              "airport_name": "Dalaman Havalimanı"
+            }
+          },
+          "price": 170.00,
+          "additional_info": {
+            "flight_number": "AJ789",
+            "available_seats": 95,
+            "flight_duration": "1h 30m"
+          }
+        },        {
+          "departure_airport": "SZF",
+          "arrival_airport": "AJI",
+          "departure_date": "2023-09-13T17:00:00",
+          "arrival_date": "2023-09-13T18:30:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "SZF",
+              "city": "Samsun",
+              "airport_name": "Samsun-Çarşamba Havalimanı"
+            },
+            "arrival": {
+              "code": "AJI",
+              "city": "Ağrı",
+              "airport_name": "Ağrı Havalimanı"
+            }
+          },
+          "price": 185.00,
+          "additional_info": {
+            "flight_number": "PG456",
+            "available_seats": 105,
+            "flight_duration": "1h 30m"
+          }
+        }, {
+          "departure_airport": "Zonguldak",
+          "arrival_airport": "ECN",
+          "departure_date": "2023-09-13T15:30:00",
+          "arrival_date": "2023-09-13T17:00:00",
+          "company": "AtlasGlobal",
+          "airport_info": {
+            "departure": {
+              "code": "Zonguldak",
+              "city": "ONQ",
+              "airport_name": "Zonguldak Havalimanı"
+            },
+            "arrival": {
+              "code": "ECN",
+              "city": "Ercan",
+              "airport_name": "Ercan Uluslararası Havalimanı"
+            }
+          },
+          "price": 195.00,
+          "additional_info": {
+            "flight_number": "KK789",
+            "available_seats": 115,
+            "flight_duration": "1h 30m"
+          }
+        }, {
+          "departure_airport": "KSY",
+          "arrival_airport": "MLX",
+          "departure_date": "2023-09-13T16:00:00",
+          "arrival_date": "2023-09-13T17:30:00",
+          "company": "Turkish Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "KSY",
+              "city": "Kars",
+              "airport_name": "Kars Harakani Havalimanı"
+            },
+            "arrival": {
+              "code": "MLX",
+              "city": "Malatya",
+              "airport_name": "Malatya Erhaç Havalimanı"
+            }
+          },
+          "price": 175.00,
+          "additional_info": {
+            "flight_number": "TK123",
+            "available_seats": 85,
+            "flight_duration": "1h 30m"
+          }
+        }        
+        
+      ],
+      "Thu Sep 14 2023": [
+        {
+          "departure_airport": "ESB",
+          "arrival_airport": "IST",
+          "departure_date": "2023-09-14T11:30:00",
+          "arrival_date": "2023-09-14T12:45:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "ESB",
+              "city": "Ankara",
+              "airport_name": "Esenboğa havalimanı"
+            },
+            "arrival": {
+              "code": "IST",
+              "city": "istanbul",
+              "airport_name": "istanbul havalimanı"
+            }
+          },
+          "price": 140.50,
+          "additional_info": {
+            "flight_number": "PG345",
+            "available_seats": 90,
+            "flight_duration": "1h 15m"
+          }
+        },
+        {
+          "departure_airport": "AYT",
+          "arrival_airport": "DLM",
+          "departure_date": "2023-09-14T16:00:00",
+          "arrival_date": "2023-09-14T17:00:00",
+          "company": "SunExpress",
+          "airport_info": {
+            "departure": {
+              "code": "AYT",
+              "city": "Antalya",
+              "airport_name": "Antalya havalimanı"
+            },
+            "arrival": {
+              "code": "DLM",
+              "city": "Dalaman",
+              "airport_name": "Dalaman havalimanı"
+            }
+          },
+          "price": 90.00,
+          "additional_info": {
+            "flight_number": "XQ456",
+            "available_seats": 80,
+            "flight_duration": "1h"
+          }
+        }, {
+          "departure_airport": "ESB",
+          "arrival_airport": "IST",
+          "departure_date": "2023-09-14T11:30:00",
+          "arrival_date": "2023-09-14T12:45:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "ESB",
+              "city": "Ankara",
+              "airport_name": "Esenboğa Havalimanı"
+            },
+            "arrival": {
+              "code": "IST",
+              "city": "İstanbul",
+              "airport_name": "İstanbul Havalimanı"
+            }
+          },
+          "price": 140.50,
+          "additional_info": {
+            "flight_number": "PG345",
+            "available_seats": 90,
+            "flight_duration": "1h 15m"
+          }
+        }, {
+          "departure_airport": "IST",
+          "arrival_airport": "AYT",
+          "departure_date": "2023-09-14T10:30:00",
+          "arrival_date": "2023-09-14T12:00:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "IST",
+              "city": "İstanbul",
+              "airport_name": "İstanbul Havalimanı"
+            },
+            "arrival": {
+              "code": "AYT",
+              "city": "Antalya",
+              "airport_name": "Antalya Havalimanı"
+            }
+          },
+          "price": 160.00,
+          "additional_info": {
+            "flight_number": "PG456",
+            "available_seats": 100,
+            "flight_duration": "1h 30m"
+          }
+        }, {
+          "departure_airport": "SAW",
+          "arrival_airport": "AYT",
+          "departure_date": "2023-09-14T14:00:00",
+          "arrival_date": "2023-09-14T15:30:00",
+          "company": "AnadoluJet",
+          "airport_info": {
+            "departure": {
+              "code": "SAW",
+              "city": "İstanbul",
+              "airport_name": "Sabıha Gökçen Uluslararası Havalimanı"
+            },
+            "arrival": {
+              "code": "AYT",
+              "city": "Antalya",
+              "airport_name": "Antalya Havalimanı"
+            }
+          },
+          "price": 150.00,
+          "additional_info": {
+            "flight_number": "AJ789",
+            "available_seats": 80,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "ADB",
+          "arrival_airport": "ESB",
+          "departure_date": "2023-09-14T13:45:00",
+          "arrival_date": "2023-09-14T15:15:00",
+          "company": "Turkish Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "ADB",
+              "city": "İzmir",
+              "airport_name": "Adnan Menderes Havalimanı"
+            },
+            "arrival": {
+              "code": "ESB",
+              "city": "Ankara",
+              "airport_name": "Ankara Esenboğa Havalimanı"
+            }
+          },
+          "price": 180.00,
+          "additional_info": {
+            "flight_number": "TK123",
+            "available_seats": 110,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "GZT",
+          "arrival_airport": "IST",
+          "departure_date": "2023-09-14T11:30:00",
+          "arrival_date": "2023-09-14T13:00:00",
+          "company": "AtlasGlobal",
+          "airport_info": {
+            "departure": {
+              "code": "GZT",
+              "city": "Gaziantep",
+              "airport_name": "Oğuzeli Havalimanı"
+            },
+            "arrival": {
+              "code": "IST",
+              "city": "İstanbul",
+              "airport_name": "İstanbul Havalimanı"
+            }
+          },
+          "price": 190.00,
+          "additional_info": {
+            "flight_number": "KK234",
+            "available_seats": 120,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "IST",
+          "arrival_airport": "KCM",
+          "departure_date": "2023-09-14T13:00:00",
+          "arrival_date": "2023-09-14T14:30:00",
+          "company": "SunExpress",
+          "airport_info": {
+            "departure": {
+              "code": "IST",
+              "city": "İstanbul",
+              "airport_name": "İstanbul Havalimanı"
+            },
+            "arrival": {
+              "code": "KCM",
+              "city": "Kahramanmaraş",
+              "airport_name": "Kahramanmaraş Havalimanı"
+            }
+          },
+          "price": 160.00,
+          "additional_info": {
+            "flight_number": "XQ234",
+            "available_seats": 75,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "SZF",
+          "arrival_airport": "AJI",
+          "departure_date": "2023-09-14T17:00:00",
+          "arrival_date": "2023-09-14T18:30:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "SZF",
+              "city": "Samsun",
+              "airport_name": "Samsun-Çarşamba Havalimanı"
+            },
+            "arrival": {
+              "code": "AJI",
+              "city": "Ağrı",
+              "airport_name": "Ağrı Havalimanı"
+            }
+          },
+          "price": 185.00,
+          "additional_info": {
+            "flight_number": "PG567",
+            "available_seats": 105,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "Zonguldak",
+          "arrival_airport": "ECN",
+          "departure_date": "2023-09-14T15:30:00",
+          "arrival_date": "2023-09-14T17:00:00",
+          "company": "AtlasGlobal",
+          "airport_info": {
+            "departure": {
+              "code": "Zonguldak",
+              "city": "ONQ",
+              "airport_name": "Zonguldak Havalimanı"
+            },
+            "arrival": {
+              "code": "ECN",
+              "city": "Ercan",
+              "airport_name": "Ercan Uluslararası Havalimanı"
+            }
+          },
+          "price": 195.00,
+          "additional_info": {
+            "flight_number": "KK567",
+            "available_seats": 115,
+            "flight_duration": "1h 30m"
+          }
+        },
+        {
+          "departure_airport": "KSY",
+          "arrival_airport": "MLX",
+          "departure_date": "2023-09-14T16:00:00",
+          "arrival_date": "2023-09-14T17:30:00",
+          "company": "Turkish Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "KSY",
+              "city": "Kars",
+              "airport_name": "Kars Harakani Havalimanı"
+            },
+            "arrival": {
+              "code": "MLX",
+              "city": "Malatya",
+              "airport_name": "Malatya Erhaç Havalimanı"
+            }
+          },
+          "price": 175.00,
+          "additional_info": {
+            "flight_number": "TK567",
+            "available_seats": 85,
+            "flight_duration": "1h 30m"
+          }
+        }             
+      ],
+      "Fri Sep 15 2023": [
+        {
+          "departure_airport": "IST",
+          "arrival_airport": "AYT",
+          "departure_date": "2023-09-15T10:00:00",
+          "arrival_date": "2023-09-15T11:30:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "IST",
+              "city": "istanbul",
+              "airport_name": "istanbul havalimanı"
+            },
+            "arrival": {
+              "code": "AYT",
+              "city": "Antalya",
+              "airport_name": "Antalya havalimanı"
+            }
+          },
+          "price": 200.00,
+          "additional_info": {
+            "flight_number": "TK124",
+            "available_seats": 110,
+            "flight_duration": "1h 30m"
+          }
+        },
+        {
+          "departure_airport": "IST",
+          "arrival_airport": "AYT",
+          "departure_date": "2023-09-15T08:00:00",
+          "arrival_date": "2023-09-15T09:30:00",
+          "company": "Turkish Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "IST",
+              "city": "istanbul",
+              "airport_name": "istanbul havalimanı"
+            },
+            "arrival": {
+              "code": "AYT",
+              "city": "Antalya",
+              "airport_name": "Antalya havalimanı"
+            }
+          },
+          "price": 150.00,
+          "additional_info": {
+            "flight_number": "TK123",
+            "available_seats": 120,
+            "flight_duration": "1h 30m"
+          }
+        },
+        {
+          "departure_airport": "AYT",
+          "arrival_airport": "IST",
+          "departure_date": "2023-09-15T12:00:00",
+          "arrival_date": "2023-09-15T15:30:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "AYT",
+              "city": "Antalya",
+              "airport_name": "Antalya havalimanı"
+            },
+            "arrival": {
+              "code": "IST",
+              "city": "istanbul",
+              "airport_name": "istanbul havalimanı"
+            }
+          },
+          "price": 300.00,
+          "additional_info": {
+            "flight_number": "TK200",
+            "available_seats": 110,
+            "flight_duration": "1h 30m"
+          }
+        },
+        {
+          "departure_airport": "IST",
+          "arrival_airport": "AYT",
+          "departure_date": "2023-09-15T10:00:00",
+          "arrival_date": "2023-09-15T11:30:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "IST",
+              "city": "İstanbul",
+              "airport_name": "İstanbul Havalimanı"
+            },
+            "arrival": {
+              "code": "AYT",
+              "city": "Antalya",
+              "airport_name": "Antalya Havalimanı"
+            }
+          },
+          "price": 200.00,
+          "additional_info": {
+            "flight_number": "TK124",
+            "available_seats": 110,
+            "flight_duration": "1h 30m"
+          }
+        }, {
+          "departure_airport": "AYT",
+          "arrival_airport": "IST",
+          "departure_date": "2023-09-15T12:30:00",
+          "arrival_date": "2023-09-15T14:00:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "AYT",
+              "city": "Antalya",
+              "airport_name": "Antalya Havalimanı"
+            },
+            "arrival": {
+              "code": "IST",
+              "city": "İstanbul",
+              "airport_name": "İstanbul Havalimanı"
+            }
+          },
+          "price": 200.00,
+          "additional_info": {
+            "flight_number": "TK125",
+            "available_seats": 110,
+            "flight_duration": "1h 30m"
+          }
+        }, {
+          "departure_airport": "SAW",
+          "arrival_airport": "ADB",
+          "departure_date": "2023-09-15T10:00:00",
+          "arrival_date": "2023-09-15T11:30:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "SAW",
+              "city": "İstanbul",
+              "airport_name": "Sabıha Gökçen Uluslararası Havalimanı"
+            },
+            "arrival": {
+              "code": "ADB",
+              "city": "İzmir",
+              "airport_name": "Adnan Menderes Havalimanı"
+            }
+          },
+          "price": 200.00,
+          "additional_info": {
+            "flight_number": "TK126",
+            "available_seats": 110,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "ADB",
+          "arrival_airport": "SAW",
+          "departure_date": "2023-09-15T12:30:00",
+          "arrival_date": "2023-09-15T14:00:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "ADB",
+              "city": "İzmir",
+              "airport_name": "Adnan Menderes Havalimanı"
+            },
+            "arrival": {
+              "code": "SAW",
+              "city": "İstanbul",
+              "airport_name": "Sabıha Gökçen Uluslararası Havalimanı"
+            }
+          },
+          "price": 200.00,
+          "additional_info": {
+            "flight_number": "TK127",
+            "available_seats": 110,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "ADB",
+          "arrival_airport": "ESB",
+          "departure_date": "2023-09-15T10:00:00",
+          "arrival_date": "2023-09-15T11:30:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "ADB",
+              "city": "İzmir",
+              "airport_name": "Adnan Menderes Havalimanı"
+            },
+            "arrival": {
+              "code": "ESB",
+              "city": "Ankara",
+              "airport_name": "Ankara Esenboğa Havalimanı"
+            }
+          },
+          "price": 200.00,
+          "additional_info": {
+            "flight_number": "TK128",
+            "available_seats": 110,
+            "flight_duration": "1h 30m"
+          }
+        },    {
+          "departure_airport": "ESB",
+          "arrival_airport": "ADB",
+          "departure_date": "2023-09-15T12:30:00",
+          "arrival_date": "2023-09-15T14:00:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "ESB",
+              "city": "Ankara",
+              "airport_name": "Ankara Esenboğa Havalimanı"
+            },
+            "arrival": {
+              "code": "ADB",
+              "city": "İzmir",
+              "airport_name": "Adnan Menderes Havalimanı"
+            }
+          },
+          "price": 200.00,
+          "additional_info": {
+            "flight_number": "TK129",
+            "available_seats": 110,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "AYT",
+          "arrival_airport": "BJV",
+          "departure_date": "2023-09-15T10:00:00",
+          "arrival_date": "2023-09-15T11:30:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "AYT",
+              "city": "Antalya",
+              "airport_name": "Antalya Havalimanı"
+            },
+            "arrival": {
+              "code": "BJV",
+              "city": "Bodrum",
+              "airport_name": "Milas–Bodrum Havalimanı"
+            }
+          },
+          "price": 200.00,
+          "additional_info": {
+            "flight_number": "TK130",
+            "available_seats": 110,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "BJV",
+          "arrival_airport": "AYT",
+          "departure_date": "2023-09-15T12:30:00",
+          "arrival_date": "2023-09-15T14:00:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "BJV",
+              "city": "Bodrum",
+              "airport_name": "Milas–Bodrum Havalimanı"
+            },
+            "arrival": {
+              "code": "AYT",
+              "city": "Antalya",
+              "airport_name": "Antalya Havalimanı"
+            }
+          },
+          "price": 200.00,
+          "additional_info": {
+            "flight_number": "TK131",
+            "available_seats": 110,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "DLM",
+          "arrival_airport": "ESB",
+          "departure_date": "2023-09-15T10:00:00",
+          "arrival_date": "2023-09-15T11:30:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "DLM",
+              "city": "Dalaman",
+              "airport_name": "Dalaman Havalimanı"
+            },
+            "arrival": {
+              "code": "ESB",
+              "city": "Ankara",
+              "airport_name": "Ankara Esenboğa Havalimanı"
+            }
+          },
+          "price": 200.00,
+          "additional_info": {
+            "flight_number": "TK132",
+            "available_seats": 110,
+            "flight_duration": "1h 30m"
+          }
+        },{
+          "departure_airport": "ESB",
+          "arrival_airport": "DLM",
+          "departure_date": "2023-09-15T12:30:00",
+          "arrival_date": "2023-09-15T14:00:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "ESB",
+              "city": "Ankara",
+              "airport_name": "Ankara Esenboğa Havalimanı"
+            },
+            "arrival": {
+              "code": "DLM",
+              "city": "Dalaman",
+              "airport_name": "Dalaman Havalimanı"
+            }
+          },
+          "price": 200.00,
+          "additional_info": {
+            "flight_number": "TK133",
+            "available_seats": 110,
+            "flight_duration": "1h 30m"
+          }
+        }      
+        
+      ],
+      "Sat Sep 16 2023": [
+        {
+          "departure_airport": "ESB",
+          "arrival_airport": "ADB",
+          "departure_date": "2023-09-16T10:30:00",
+          "arrival_date": "2023-09-16T11:45:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "ESB",
+              "city": "Ankara",
+              "airport_name": "Esenboğa havalimanı"
+            },
+            "arrival": {
+              "code": "ADB",
+              "city": "izmir",
+              "airport_name": "Adnan Menderes havalimanı"
+            }
+          },
+          "price": 80.50,
+          "additional_info": {
+            "flight_number": "PC456",
+            "available_seats": 90,
+            "flight_duration": "1h 15m"
+          }
+        }
+      ],
+      "Sun Sep 17 2023": [
+        {
+          "departure_airport": "DLM",
+          "arrival_airport": "BJV",
+          "departure_date": "2023-09-17T12:45:00",
+          "arrival_date": "2023-09-17T13:30:00",
+          "company": "SunExpress",
+          "airport_info": {
+            "departure": {
+              "code": "DLM",
+              "city": "Dalaman",
+              "airport_name": "Dalaman havalimanı"
+            },
+            "arrival": {
+              "code": "BJV",
+              "city": "Bodrum",
+              "airport_name": "Milas–Bodrum havalimanı"
+            }
+          },
+          "price": 60.00,
+          "additional_info": {
+            "flight_number": "XQ789",
+            "available_seats": 100,
+            "flight_duration": "45m"
+          }
+        }
+      ],
+      "Mon Sep 18 2023": [
+        {
+          "departure_airport": "AYT",
+          "arrival_airport": "GZP",
+          "departure_date": "2023-09-18T14:30:00",
+          "arrival_date": "2023-09-18T15:45:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "AYT",
+              "city": "Antalya",
+              "airport_name": "Antalya havalimanı"
+            },
+            "arrival": {
+              "code": "GZP",
+              "city": "gazipaşa",
+              "airport_name": "Gazipaşa-Alanya havalimanı"
+            }
+          },
+          "price": 70.00,
+          "additional_info": {
+            "flight_number": "PC789",
+            "available_seats": 80,
+            "flight_duration": "1h 15m"
+          }
+        }
+      ],
+      "Tue Sep 19 2023": [
+        {
+          "departure_airport": "ADA",
+          "arrival_airport": "ESB",
+          "departure_date": "2023-09-19T16:45:00",
+          "arrival_date": "2023-09-19T18:15:00",
+          "company": "Turkish Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "ADA",
+              "city": "Adana",
+              "airport_name": "Adana havalimanı"
+            },
+            "arrival": {
+              "code": "ESB",
+              "city": "Ankara",
+              "airport_name": "Esenboğa havalimanı"
+            }
+          },
+          "price": 90.00,
+          "additional_info": {
+            "flight_number": "TK456",
+            "available_seats": 100,
+            "flight_duration": "1h 30m"
+          }
+        }
+      ],
+      "Wed Sep 20 2023": [
+        {
+          "departure_airport": "BJV",
+          "arrival_airport": "ESB",
+          "departure_date": "2023-09-20T09:00:00",
+          "arrival_date": "2023-09-20T10:15:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "BJV",
+              "city": "Bodrum",
+              "airport_name": "Milas–Bodrum havalimanı"
+            },
+            "arrival": {
+              "code": "ESB",
+              "city": "Ankara",
+              "airport_name": "Esenboğa havalimanı"
+            }
+          },
+          "price": 75.00,
+          "additional_info": {
+            "flight_number": "PC567",
+            "available_seats": 110,
+            "flight_duration": "1h 15m"
+          }
+        }
+      ],
+      "Thu Sep 21 2023": [
+        {
+          "departure_airport": "IST",
+          "arrival_airport": "ISL",
+          "departure_date": "2023-09-21T09:30:00",
+          "arrival_date": "2023-09-21T10:15:00",
+          "company": "Turkish Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "IST",
+              "city": "istanbul",
+              "airport_name": "istanbul havalimanı"
+            },
+            "arrival": {
+              "code": "ISL",
+              "city": "istanbul",
+              "airport_name": "Atatürk Havalimanı"
+            }
+          },
+          "price": 120.00,
+          "additional_info": {
+            "flight_number": "TK789",
+            "available_seats": 90,
+            "flight_duration": "45m"
+          }
+        }
+      ],
+      "Fri Sep 22 2023": [
+        {
+          "departure_airport": "ADB",
+          "arrival_airport": "ESB",
+          "departure_date": "2023-09-22T11:00:00",
+          "arrival_date": "2023-09-22T12:15:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "ADB",
+              "city": "izmir",
+              "airport_name": "Adnan Menderes havalimanı"
+            },
+            "arrival": {
+              "code": "ESB",
+              "city": "Ankara",
+              "airport_name": "Esenboğa havalimanı"
+            }
+          },
+          "price": 160.00,
+          "additional_info": {
+            "flight_number": "PG345",
+            "available_seats": 120,
+            "flight_duration": "1h 15m"
+          }
+        }
+      ],
+      "Sat Sep 23 2023": [
+        {
+          "departure_airport": "AYT",
+          "arrival_airport": "BJV",
+          "departure_date": "2023-09-23T10:30:00",
+          "arrival_date": "2023-09-23T11:15:00",
+          "company": "SunExpress",
+          "airport_info": {
+            "departure": {
+              "code": "AYT",
+              "city": "Antalya",
+              "airport_name": "Antalya havalimanı"
+            },
+            "arrival": {
+              "code": "BJV",
+              "city": "Bodrum",
+              "airport_name": "Milas–Bodrum havalimanı"
+            }
+          },
+          "price": 70.00,
+          "additional_info": {
+            "flight_number": "XQ567",
+            "available_seats": 80,
+            "flight_duration": "45m"
+          }
+        }
+      ],
+      "Sun Sep 24 2023": [
+        {
+          "departure_airport": "IST",
+          "arrival_airport": "ESB",
+          "departure_date": "2023-09-24T14:00:00",
+          "arrival_date": "2023-09-24T15:15:00",
+          "company": "Turkish Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "IST",
+              "city": "istanbul",
+              "airport_name": "istanbul havalimanı"
+            },
+            "arrival": {
+              "code": "ESB",
+              "city": "Ankara",
+              "airport_name": "Esenboğa havalimanı"
+            }
+          },
+          "price": 130.00,
+          "additional_info": {
+            "flight_number": "TK567",
+            "available_seats": 90,
+            "flight_duration": "1h 15m"
+          }
+        }
+      ],
+      "Mon Sep 25 2023": [
+        {
+          "departure_airport": "ADB",
+          "arrival_airport": "IST",
+          "departure_date": "2023-09-25T09:30:00",
+          "arrival_date": "2023-09-25T10:45:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "ADB",
+              "city": "izmir",
+              "airport_name": "Adnan Menderes havalimanı"
+            },
+            "arrival": {
+              "code": "IST",
+              "city": "istanbul",
+              "airport_name": "istanbul havalimanı"
+            }
+          },
+          "price": 140.00,
+          "additional_info": {
+            "flight_number": "PG678",
+            "available_seats": 100,
+            "flight_duration": "1h 15m"
+          }
+        }
+      ],
+      "Tue Sep 26 2023": [
+        {
+          "departure_airport": "IST",
+          "arrival_airport": "DLM",
+          "departure_date": "2023-09-26T12:00:00",
+          "arrival_date": "2023-09-26T13:15:00",
+          "company": "SunExpress",
+          "airport_info": {
+            "departure": {
+              "code": "IST",
+              "city": "istanbul",
+              "airport_name": "istanbul havalimanı"
+            },
+            "arrival": {
+              "code": "DLM",
+              "city": "Dalaman",
+              "airport_name": "Dalaman havalimanı"
+            }
+          },
+          "price": 100.00,
+          "additional_info": {
+            "flight_number": "XQ678",
+            "available_seats": 120,
+            "flight_duration": "1h 15m"
+          }
+        }
+      ],
+      "Wed Sep 27 2023": [
+        {
+          "departure_airport": "AYT",
+          "arrival_airport": "GZP",
+          "departure_date": "2023-09-27T14:30:00",
+          "arrival_date": "2023-09-27T15:45:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "AYT",
+              "city": "Antalya",
+              "airport_name": "Antalya havalimanı"
+            },
+            "arrival": {
+              "code": "GZP",
+              "city": "gazipaşa",
+              "airport_name": "Gazipaşa-Alanya havalimanı"
+            }
+          },
+          "price": 70.00,
+          "additional_info": {
+            "flight_number": "PC890",
+            "available_seats": 80,
+            "flight_duration": "1h 15m"
+          }
+        }
+      ],
+      "Thu Sep 28 2023": [
+        {
+          "departure_airport": "ESB",
+          "arrival_airport": "BJV",
+          "departure_date": "2023-09-28T16:45:00",
+          "arrival_date": "2023-09-28T17:30:00",
+          "company": "Turkish Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "ESB",
+              "city": "Ankara",
+              "airport_name": "Esenboğa havalimanı"
+            },
+            "arrival": {
+              "code": "BJV",
+              "city": "Bodrum",
+              "airport_name": "Milas–Bodrum havalimanı"
+            }
+          },
+          "price": 110.00,
+          "additional_info": {
+            "flight_number": "TK678",
+            "available_seats": 90,
+            "flight_duration": "45m"
+          }
+        }
+      ],
+      "Fri Sep 29 2023": [
+        {
+          "departure_airport": "DLM",
+          "arrival_airport": "ADA",
+          "departure_date": "2023-09-29T10:00:00",
+          "arrival_date": "2023-09-29T11:15:00",
+          "company": "SunExpress",
+          "airport_info": {
+            "departure": {
+              "code": "DLM",
+              "city": "Dalaman",
+              "airport_name": "Dalaman havalimanı"
+            },
+            "arrival": {
+              "code": "ADA",
+              "city": "Adana",
+              "airport_name": "Adana havalimanı"
+            }
+          },
+          "price": 80.00,
+          "additional_info": {
+            "flight_number": "XQ890",
+            "available_seats": 120,
+            "flight_duration": "1h 15m"
+          }
+        }
+      ],
+      "Sat Sep 30 2023": [
+        {
+          "departure_airport": "IST",
+          "arrival_airport": "ESB",
+          "departure_date": "2023-09-30T12:30:00",
+          "arrival_date": "2023-09-30T13:45:00",
+          "company": "Pegasus Airlines",
+          "airport_info": {
+            "departure": {
+              "code": "IST",
+              "city": "istanbul",
+              "airport_name": "istanbul havalimanı"
+            },
+            "arrival": {
+              "code": "ESB",
+              "city": "Ankara",
+              "airport_name": "Esenboğa havalimanı"
+            }
+          },
+          "price": 130.00,
+          "additional_info": {
+            "flight_number": "PG789",
+            "available_seats": 90,
+            "flight_duration": "1h 15m"
+          }
+        }
+      ],
+      "Sun Oct 01 2023": [
+        {
+          "departure_airport": "AYT",
+          "arrival_airport": "BJV",
+          "departure_date": "2023-10-01T09:00:00",
+          "arrival_date": "2023-10-01T09:45:00",
+          "company": "SunExpress",
+          "airport_info": {
+            "departure": {
+              "code": "AYT",
+              "city": "Antalya",
+              "airport_name": "Antalya havalimanı"
+            },
+            "arrival": {
+              "code": "BJV",
+              "city": "Bodrum",
+              "airport_name": "Milas–Bodrum havalimanı"
+            }
+          },
+          "price": 70.00,
+          "additional_info": {
+            "flight_number": "XQ901",
+            "available_seats": 80,
+            "flight_duration": "45m"
+          }
+        }
+      ]
+      }
+      
+  }
+
+  
