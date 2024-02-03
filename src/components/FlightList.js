@@ -66,7 +66,7 @@ export default function FlightList({ data, isLoading, error, oneDirection, depar
             })
         } else {
             bestMatches.sort((a , b) => {
-               return (a[0].price + a[1].price) - (b[0].price - b[1].price) ;
+               return (a[0].price + a[1].price) - (b[0].price + b[1].price);
             })
         }
     } else if (selected === "Kalkış Saati") {
@@ -86,12 +86,14 @@ export default function FlightList({ data, isLoading, error, oneDirection, depar
     }  else if (selected === "Uçuş Uzunluğu") {
         if (oneDirection) {
             departureFlights.sort((a , b) => {
-                return parseInt(a.additional_info_flight_duration) - parseInt(b.additional_info_flight_duration);
+                return parseInt(a.additional_info.flight_duration) - parseInt(b.additional_info.flight_duration);
             })
         } else {
             bestMatches.sort((a , b) => {
-                return (parseInt(a[0].additional_info_flight_duration) + parseInt(a[1].additional_info_flight_duration)) - 
-                    (parseInt(b[0].additional_info_flight_duration) + parseInt(b[1].additional_info_flight_duration));
+                return (
+                    (parseInt(a[0].additional_info.flight_duration) + parseInt(a[1].additional_info.flight_duration)) - 
+                    (parseInt(b[0].additional_info.flight_duration) + parseInt(b[1].additional_info.flight_duration))
+                );
             })
         }
     }

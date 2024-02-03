@@ -31,7 +31,7 @@ export default function FlightListItem({ info }) {
                 </span>
                 <span className="flight_duration_container">
                     <span className="flight_number">Uçuş Numarası:{info.additional_info.flight_number}</span><br />
-                    {info.additional_info.flight_duration}
+                    {Math.floor(info.additional_info.flight_duration / 60).toString() + "s" +  (info.additional_info.flight_duration % 60).toString() + "d"}
                     <div className="flight_line">
                      </div>
                     <IoIosAirplane color="gray" />

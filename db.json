@@ -1,11 +1,11 @@
 {
     "flights": {
-      "Tue Sep 12 2023": [
+      "Tue Feb 06 2024": [
         {
           "departure_airport": "IST",
           "arrival_airport": "AYT",
-          "departure_date": "2023-09-12T10:30:00",
-          "arrival_date": "2023-09-12T12:00:00",
+          "departure_date": "2024-02-06T10:30:00",
+          "arrival_date": "2024-02-06T12:00:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -23,13 +23,13 @@
           "additional_info": {
             "flight_number": "PG123",
             "available_seats": 100,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },{
           "departure_airport": "ADB",
           "arrival_airport": "ESB",
-          "departure_date": "2023-09-12T13:45:00",
-          "arrival_date": "2023-09-12T15:15:00",
+          "departure_date": "2024-02-06T13:45:00",
+          "arrival_date": "2024-02-06T15:15:00",
           "company": "Turkish Airlines",
           "airport_info": {
             "departure": {
@@ -47,13 +47,13 @@
           "additional_info": {
             "flight_number": "TK456",
             "available_seats": 110,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },{
           "departure_airport": "SAW",
           "arrival_airport": "AYT",
-          "departure_date": "2023-09-12T14:00:00",
-          "arrival_date": "2023-09-12T15:30:00",
+          "departure_date": "2024-02-06T14:00:00",
+          "arrival_date": "2024-02-06T15:30:00",
           "company": "AnadoluJet",
           "airport_info": {
             "departure": {
@@ -71,13 +71,13 @@
           "additional_info": {
             "flight_number": "AJ789",
             "available_seats": 80,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },{
           "departure_airport": "GZT",
           "arrival_airport": "IST",
-          "departure_date": "2023-09-12T11:30:00",
-          "arrival_date": "2023-09-12T13:00:00",
+          "departure_date": "2024-02-06T11:30:00",
+          "arrival_date": "2024-02-06T13:00:00",
           "company": "AtlasGlobal",
           "airport_info": {
             "departure": {
@@ -95,13 +95,13 @@
           "additional_info": {
             "flight_number": "KK123",
             "available_seats": 120,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },{
           "departure_airport": "ERZ",
           "arrival_airport": "DLM",
-          "departure_date": "2023-09-12T14:30:00",
-          "arrival_date": "2023-09-12T16:00:00",
+          "departure_date": "2024-02-06T14:30:00",
+          "arrival_date": "2024-02-06T16:00:00",
           "company": "AnadoluJet",
           "airport_info": {
             "departure": {
@@ -119,13 +119,13 @@
           "additional_info": {
             "flight_number": "AJ123",
             "available_seats": 95,
-            "flight_duration": "1h 30m"
+            "flight_duration":  90
           }
         },{
           "departure_airport": "IST",
           "arrival_airport": "KCM",
-          "departure_date": "2023-09-12T13:00:00",
-          "arrival_date": "2023-09-12T14:30:00",
+          "departure_date": "2024-02-06T13:00:00",
+          "arrival_date": "2024-02-06T14:30:00",
           "company": "SunExpress",
           "airport_info": {
             "departure": {
@@ -143,13 +143,13 @@
           "additional_info": {
             "flight_number": "XQ123",
             "available_seats": 75,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },{
           "departure_airport": "SZF",
           "arrival_airport": "AJI",
-          "departure_date": "2023-09-12T17:00:00",
-          "arrival_date": "2023-09-12T18:30:00",
+          "departure_date": "2024-02-06T17:00:00",
+          "arrival_date": "2024-02-06T18:30:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -167,13 +167,13 @@
           "additional_info": {
             "flight_number": "PG234",
             "available_seats": 105,
-            "flight_duration": "1h 30m"
+            "flight_duration":  90
           }
         },{
           "departure_airport": "Zonguldak",
           "arrival_airport": "ECN",
-          "departure_date": "2023-09-12T15:30:00",
-          "arrival_date": "2023-09-12T17:00:00",
+          "departure_date": "2024-02-06T15:30:00",
+          "arrival_date": "2024-02-06T17:00:00",
           "company": "AtlasGlobal",
           "airport_info": {
             "departure": {
@@ -191,13 +191,13 @@
           "additional_info": {
             "flight_number": "KK234",
             "available_seats": 115,
-            "flight_duration": "1h 30m"
+            "flight_duration":  90
           }
         },{
           "departure_airport": "KSY",
           "arrival_airport": "MLX",
-          "departure_date": "2023-09-12T16:00:00",
-          "arrival_date": "2023-09-12T17:30:00",
+          "departure_date": "2024-02-06T16:00:00",
+          "arrival_date": "2024-02-06T17:30:00",
           "company": "Turkish Airlines",
           "airport_info": {
             "departure": {
@@ -215,13 +215,13 @@
           "additional_info": {
             "flight_number": "TK234",
             "available_seats": 85,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },{
           "departure_airport": "IST",
           "arrival_airport": "DIY",
-          "departure_date": "2023-09-12T18:00:00",
-          "arrival_date": "2023-09-12T19:30:00",
+          "departure_date": "2024-02-06T18:00:00",
+          "arrival_date": "2024-02-06T19:30:00",
           "company": "AnadoluJet",
           "airport_info": {
             "departure": {
@@ -239,13 +239,13 @@
           "additional_info": {
             "flight_number": "AJ567",
             "available_seats": 95,
-            "flight_duration": "1h 30m"
+            "flight_duration":  90
           }
         },{
           "departure_airport": "AYT",
           "arrival_airport": "IST",
-          "departure_date": "2023-09-12T13:30:00",
-          "arrival_date": "2023-09-12T15:00:00",
+          "departure_date": "2024-02-06T13:30:00",
+          "arrival_date": "2024-02-06T15:00:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -263,13 +263,13 @@
           "additional_info": {
             "flight_number": "PG321",
             "available_seats": 100,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },{
           "departure_airport": "ESB",
           "arrival_airport": "ADB",
-          "departure_date": "2023-09-12T16:45:00",
-          "arrival_date": "2023-09-12T18:15:00",
+          "departure_date": "2024-02-06T16:45:00",
+          "arrival_date": "2024-02-06T18:15:00",
           "company": "Turkish Airlines",
           "airport_info": {
             "departure": {
@@ -287,13 +287,13 @@
           "additional_info": {
             "flight_number": "TK321",
             "available_seats": 110,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },{
           "departure_airport": "AYT",
           "arrival_airport": "SAW",
-          "departure_date": "2023-09-12T16:45:00",
-          "arrival_date": "2023-09-12T18:15:00",
+          "departure_date": "2024-02-06T16:45:00",
+          "arrival_date": "2024-02-06T18:15:00",
           "company": "AnadoluJet",
           "airport_info": {
             "departure": {
@@ -311,14 +311,14 @@
           "additional_info": {
             "flight_number": "AJ321",
             "available_seats": 80,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },
         {
           "departure_airport": "IST",
           "arrival_airport": "GZT",
-          "departure_date": "2023-09-12T17:30:00",
-          "arrival_date": "2023-09-12T19:00:00",
+          "departure_date": "2024-02-06T17:30:00",
+          "arrival_date": "2024-02-06T19:00:00",
           "company": "AtlasGlobal",
           "airport_info": {
             "departure": {
@@ -336,13 +336,13 @@
           "additional_info": {
             "flight_number": "KK321",
             "available_seats": 120,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },{
           "departure_airport": "DLM",
           "arrival_airport": "ERZ",
-          "departure_date": "2023-09-12T18:00:00",
-          "arrival_date": "2023-09-12T19:30:00",
+          "departure_date": "2024-02-06T18:00:00",
+          "arrival_date": "2024-02-06T19:30:00",
           "company": "AnadoluJet",
           "airport_info": {
             "departure": {
@@ -360,13 +360,13 @@
           "additional_info": {
             "flight_number": "AJ321",
             "available_seats": 95,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },{
           "departure_airport": "KCM",
           "arrival_airport": "IST",
-          "departure_date": "2023-09-12T14:45:00",
-          "arrival_date": "2023-09-12T16:15:00",
+          "departure_date": "2024-02-06T14:45:00",
+          "arrival_date": "2024-02-06T16:15:00",
           "company": "SunExpress",
           "airport_info": {
             "departure": {
@@ -384,13 +384,13 @@
           "additional_info": {
             "flight_number": "XQ321",
             "available_seats": 75,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },   {
           "departure_airport": "AJI",
           "arrival_airport": "SZF",
-          "departure_date": "2023-09-12T19:45:00",
-          "arrival_date": "2023-09-12T21:15:00",
+          "departure_date": "2024-02-06T19:45:00",
+          "arrival_date": "2024-02-06T21:15:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -408,13 +408,13 @@
           "additional_info": {
             "flight_number": "PG345",
             "available_seats": 105,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },{
           "departure_airport": "ECN",
           "arrival_airport": "Zonguldak",
-          "departure_date": "2023-09-12T20:00:00",
-          "arrival_date": "2023-09-12T21:30:00",
+          "departure_date": "2024-02-06T20:00:00",
+          "arrival_date": "2024-02-06T21:30:00",
           "company": "AtlasGlobal",
           "airport_info": {
             "departure": {
@@ -432,13 +432,13 @@
           "additional_info": {
             "flight_number": "KK345",
             "available_seats": 115,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },{
           "departure_airport": "MLX",
           "arrival_airport": "KSY",
-          "departure_date": "2023-09-12T20:30:00",
-          "arrival_date": "2023-09-12T22:00:00",
+          "departure_date": "2024-02-06T20:30:00",
+          "arrival_date": "2024-02-06T22:00:00",
           "company": "Turkish Airlines",
           "airport_info": {
             "departure": {
@@ -456,13 +456,13 @@
           "additional_info": {
             "flight_number": "TK345",
             "available_seats": 85,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },{
           "departure_airport": "DIY",
           "arrival_airport": "IST",
-          "departure_date": "2023-09-12T21:45:00",
-          "arrival_date": "2023-09-12T23:15:00",
+          "departure_date": "2024-02-06T21:45:00",
+          "arrival_date": "2024-02-06T23:15:00",
           "company": "AnadoluJet",
           "airport_info": {
             "departure": {
@@ -480,17 +480,17 @@
           "additional_info": {
             "flight_number": "AJ567",
             "available_seats": 95,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         }         
         
       ],
-      "Wed Sep 13 2023": [
-        {
+      "Wed Feb 07 2024": [
+        {	
           "departure_airport": "IST",
           "arrival_airport": "AYT",
-          "departure_date": "2023-09-13T10:30:00",
-          "arrival_date": "2023-09-13T12:00:00",
+          "departure_date": "2024-02-07T10:30:00",
+          "arrival_date": "2024-02-07T12:00:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -508,14 +508,14 @@
           "additional_info": {
             "flight_number": "PG123",
             "available_seats": 100,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },
         {
           "departure_airport": "IST",
           "arrival_airport": "ADB",
-          "departure_date": "2023-09-13T14:00:00",
-          "arrival_date": "2023-09-13T15:15:00",
+          "departure_date": "2024-02-07T14:00:00",
+          "arrival_date": "2024-02-07T15:15:00",
           "company": "Turkish Airlines",
           "airport_info": {
             "departure": {
@@ -533,14 +533,14 @@
           "additional_info": {
             "flight_number": "TK234",
             "available_seats": 120,
-            "flight_duration": "1h 15m"
+            "flight_duration": 75
           }
         },
         {
           "departure_airport": "IST",
           "arrival_airport": "AYT",
-          "departure_date": "2023-09-13T10:30:00",
-          "arrival_date": "2023-09-13T12:00:00",
+          "departure_date": "2024-02-07T10:30:00",
+          "arrival_date": "2024-02-07T12:00:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -558,13 +558,13 @@
           "additional_info": {
             "flight_number": "PG123",
             "available_seats": 100,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         }, {
           "departure_airport": "ADB",
           "arrival_airport": "ESB",
-          "departure_date": "2023-09-13T13:45:00",
-          "arrival_date": "2023-09-13T15:15:00",
+          "departure_date": "2024-02-07T13:45:00",
+          "arrival_date": "2024-02-07T15:15:00",
           "company": "Turkish Airlines",
           "airport_info": {
             "departure": {
@@ -582,14 +582,14 @@
           "additional_info": {
             "flight_number": "TK789",
             "available_seats": 120,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },
         {
           "departure_airport": "SAW",
           "arrival_airport": "AYT",
-          "departure_date": "2023-09-13T14:00:00",
-          "arrival_date": "2023-09-13T15:30:00",
+          "departure_date": "2024-02-07T14:00:00",
+          "arrival_date": "2024-02-07T15:30:00",
           "company": "AnadoluJet",
           "airport_info": {
             "departure": {
@@ -607,13 +607,13 @@
           "additional_info": {
             "flight_number": "AJ456",
             "available_seats": 80,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         }, {
           "departure_airport": "IST",
           "arrival_airport": "ESB",
-          "departure_date": "2023-09-13T16:30:00",
-          "arrival_date": "2023-09-13T18:00:00",
+          "departure_date": "2024-02-07T16:30:00",
+          "arrival_date": "2024-02-07T18:00:00",
           "company": "SunExpress",
           "airport_info": {
             "departure": {
@@ -631,13 +631,13 @@
           "additional_info": {
             "flight_number": "XQ789",
             "available_seats": 90,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         }, {
           "departure_airport": "GZT",
           "arrival_airport": "IST",
-          "departure_date": "2023-09-13T11:30:00",
-          "arrival_date": "2023-09-13T13:00:00",
+          "departure_date": "2024-02-07T11:30:00",
+          "arrival_date": "2024-02-07T13:00:00",
           "company": "AtlasGlobal",
           "airport_info": {
             "departure": {
@@ -655,14 +655,14 @@
           "additional_info": {
             "flight_number": "KK234",
             "available_seats": 110,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         }, 
         {
           "departure_airport": "ERZ",
           "arrival_airport": "DLM",
-          "departure_date": "2023-09-13T14:30:00",
-          "arrival_date": "2023-09-13T16:00:00",
+          "departure_date": "2024-02-07T14:30:00",
+          "arrival_date": "2024-02-07T16:00:00",
           "company": "AnadoluJet",
           "airport_info": {
             "departure": {
@@ -680,13 +680,13 @@
           "additional_info": {
             "flight_number": "AJ789",
             "available_seats": 95,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },        {
           "departure_airport": "SZF",
           "arrival_airport": "AJI",
-          "departure_date": "2023-09-13T17:00:00",
-          "arrival_date": "2023-09-13T18:30:00",
+          "departure_date": "2024-02-07T17:00:00",
+          "arrival_date": "2024-02-07T18:30:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -704,13 +704,13 @@
           "additional_info": {
             "flight_number": "PG456",
             "available_seats": 105,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         }, {
           "departure_airport": "Zonguldak",
           "arrival_airport": "ECN",
-          "departure_date": "2023-09-13T15:30:00",
-          "arrival_date": "2023-09-13T17:00:00",
+          "departure_date": "2024-02-07T15:30:00",
+          "arrival_date": "2024-02-07T17:00:00",
           "company": "AtlasGlobal",
           "airport_info": {
             "departure": {
@@ -728,13 +728,13 @@
           "additional_info": {
             "flight_number": "KK789",
             "available_seats": 115,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         }, {
           "departure_airport": "KSY",
           "arrival_airport": "MLX",
-          "departure_date": "2023-09-13T16:00:00",
-          "arrival_date": "2023-09-13T17:30:00",
+          "departure_date": "2024-02-07T16:00:00",
+          "arrival_date": "2024-02-07T17:30:00",
           "company": "Turkish Airlines",
           "airport_info": {
             "departure": {
@@ -752,17 +752,17 @@
           "additional_info": {
             "flight_number": "TK123",
             "available_seats": 85,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         }        
         
       ],
-      "Thu Sep 14 2023": [
+      "Thu Feb 08 2024": [
         {
           "departure_airport": "ESB",
           "arrival_airport": "IST",
-          "departure_date": "2023-09-14T11:30:00",
-          "arrival_date": "2023-09-14T12:45:00",
+          "departure_date": "2024-02-08T11:30:00",
+          "arrival_date": "2024-02-08T12:45:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -780,14 +780,14 @@
           "additional_info": {
             "flight_number": "PG345",
             "available_seats": 90,
-            "flight_duration": "1h 15m"
+            "flight_duration": 75
           }
         },
         {
           "departure_airport": "AYT",
           "arrival_airport": "DLM",
-          "departure_date": "2023-09-14T16:00:00",
-          "arrival_date": "2023-09-14T17:00:00",
+          "departure_date": "2024-02-08T16:00:00",
+          "arrival_date": "2024-02-08T17:00:00",
           "company": "SunExpress",
           "airport_info": {
             "departure": {
@@ -805,13 +805,13 @@
           "additional_info": {
             "flight_number": "XQ456",
             "available_seats": 80,
-            "flight_duration": "1h"
+            "flight_duration": 60
           }
         }, {
           "departure_airport": "ESB",
           "arrival_airport": "IST",
-          "departure_date": "2023-09-14T11:30:00",
-          "arrival_date": "2023-09-14T12:45:00",
+          "departure_date": "2024-02-08T11:30:00",
+          "arrival_date": "2024-02-08T12:45:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -829,13 +829,13 @@
           "additional_info": {
             "flight_number": "PG345",
             "available_seats": 90,
-            "flight_duration": "1h 15m"
+            "flight_duration": 75
           }
         }, {
           "departure_airport": "IST",
           "arrival_airport": "AYT",
-          "departure_date": "2023-09-14T10:30:00",
-          "arrival_date": "2023-09-14T12:00:00",
+          "departure_date": "2024-02-08T10:30:00",
+          "arrival_date": "2024-02-08T12:00:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -853,13 +853,13 @@
           "additional_info": {
             "flight_number": "PG456",
             "available_seats": 100,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         }, {
           "departure_airport": "SAW",
           "arrival_airport": "AYT",
-          "departure_date": "2023-09-14T14:00:00",
-          "arrival_date": "2023-09-14T15:30:00",
+          "departure_date": "2024-02-08T14:00:00",
+          "arrival_date": "2024-02-08T15:30:00",
           "company": "AnadoluJet",
           "airport_info": {
             "departure": {
@@ -877,13 +877,13 @@
           "additional_info": {
             "flight_number": "AJ789",
             "available_seats": 80,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },{
           "departure_airport": "ADB",
           "arrival_airport": "ESB",
-          "departure_date": "2023-09-14T13:45:00",
-          "arrival_date": "2023-09-14T15:15:00",
+          "departure_date": "2024-02-08T13:45:00",
+          "arrival_date": "2024-02-08T15:15:00",
           "company": "Turkish Airlines",
           "airport_info": {
             "departure": {
@@ -901,13 +901,13 @@
           "additional_info": {
             "flight_number": "TK123",
             "available_seats": 110,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },{
           "departure_airport": "GZT",
           "arrival_airport": "IST",
-          "departure_date": "2023-09-14T11:30:00",
-          "arrival_date": "2023-09-14T13:00:00",
+          "departure_date": "2024-02-08T11:30:00",
+          "arrival_date": "2024-02-08T13:00:00",
           "company": "AtlasGlobal",
           "airport_info": {
             "departure": {
@@ -925,13 +925,13 @@
           "additional_info": {
             "flight_number": "KK234",
             "available_seats": 120,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },{
           "departure_airport": "IST",
           "arrival_airport": "KCM",
-          "departure_date": "2023-09-14T13:00:00",
-          "arrival_date": "2023-09-14T14:30:00",
+          "departure_date": "2024-02-08T13:00:00",
+          "arrival_date": "2024-02-08T14:30:00",
           "company": "SunExpress",
           "airport_info": {
             "departure": {
@@ -949,13 +949,13 @@
           "additional_info": {
             "flight_number": "XQ234",
             "available_seats": 75,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },{
           "departure_airport": "SZF",
           "arrival_airport": "AJI",
-          "departure_date": "2023-09-14T17:00:00",
-          "arrival_date": "2023-09-14T18:30:00",
+          "departure_date": "2024-02-08T17:00:00",
+          "arrival_date": "2024-02-08T18:30:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -973,13 +973,13 @@
           "additional_info": {
             "flight_number": "PG567",
             "available_seats": 105,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },{
           "departure_airport": "Zonguldak",
           "arrival_airport": "ECN",
-          "departure_date": "2023-09-14T15:30:00",
-          "arrival_date": "2023-09-14T17:00:00",
+          "departure_date": "2024-02-08T15:30:00",
+          "arrival_date": "2024-02-08T17:00:00",
           "company": "AtlasGlobal",
           "airport_info": {
             "departure": {
@@ -997,14 +997,14 @@
           "additional_info": {
             "flight_number": "KK567",
             "available_seats": 115,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },
         {
           "departure_airport": "KSY",
           "arrival_airport": "MLX",
-          "departure_date": "2023-09-14T16:00:00",
-          "arrival_date": "2023-09-14T17:30:00",
+          "departure_date": "2024-02-08T16:00:00",
+          "arrival_date": "2024-02-08T17:30:00",
           "company": "Turkish Airlines",
           "airport_info": {
             "departure": {
@@ -1022,16 +1022,16 @@
           "additional_info": {
             "flight_number": "TK567",
             "available_seats": 85,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         }             
       ],
-      "Fri Sep 15 2023": [
+      "Fri Feb 09 2024": [
         {
           "departure_airport": "IST",
           "arrival_airport": "AYT",
-          "departure_date": "2023-09-15T10:00:00",
-          "arrival_date": "2023-09-15T11:30:00",
+          "departure_date": "2024-02-09T10:00:00",
+          "arrival_date": "2024-02-09T11:30:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -1049,14 +1049,14 @@
           "additional_info": {
             "flight_number": "TK124",
             "available_seats": 110,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },
         {
           "departure_airport": "IST",
           "arrival_airport": "AYT",
-          "departure_date": "2023-09-15T08:00:00",
-          "arrival_date": "2023-09-15T09:30:00",
+          "departure_date": "2024-02-09T08:00:00",
+          "arrival_date": "2024-02-09T09:30:00",
           "company": "Turkish Airlines",
           "airport_info": {
             "departure": {
@@ -1074,14 +1074,14 @@
           "additional_info": {
             "flight_number": "TK123",
             "available_seats": 120,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },
         {
           "departure_airport": "AYT",
           "arrival_airport": "IST",
-          "departure_date": "2023-09-15T12:00:00",
-          "arrival_date": "2023-09-15T15:30:00",
+          "departure_date": "2024-02-09T12:00:00",
+          "arrival_date": "2024-02-09T15:30:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -1099,14 +1099,14 @@
           "additional_info": {
             "flight_number": "TK200",
             "available_seats": 110,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },
         {
           "departure_airport": "IST",
           "arrival_airport": "AYT",
-          "departure_date": "2023-09-15T10:00:00",
-          "arrival_date": "2023-09-15T11:30:00",
+          "departure_date": "2024-02-09T10:00:00",
+          "arrival_date": "2024-02-09T11:30:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -1124,13 +1124,13 @@
           "additional_info": {
             "flight_number": "TK124",
             "available_seats": 110,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         }, {
           "departure_airport": "AYT",
           "arrival_airport": "IST",
-          "departure_date": "2023-09-15T12:30:00",
-          "arrival_date": "2023-09-15T14:00:00",
+          "departure_date": "2024-02-09T12:30:00",
+          "arrival_date": "2024-02-09T14:00:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -1148,13 +1148,13 @@
           "additional_info": {
             "flight_number": "TK125",
             "available_seats": 110,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         }, {
           "departure_airport": "SAW",
           "arrival_airport": "ADB",
-          "departure_date": "2023-09-15T10:00:00",
-          "arrival_date": "2023-09-15T11:30:00",
+          "departure_date": "2024-02-09T10:00:00",
+          "arrival_date": "2024-02-09T11:30:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -1172,13 +1172,13 @@
           "additional_info": {
             "flight_number": "TK126",
             "available_seats": 110,
-            "flight_duration": "1h 30m"
+            "flight_duration":  90
           }
         },{
           "departure_airport": "ADB",
           "arrival_airport": "SAW",
-          "departure_date": "2023-09-15T12:30:00",
-          "arrival_date": "2023-09-15T14:00:00",
+          "departure_date": "2024-02-09T12:30:00",
+          "arrival_date": "2024-02-09T14:00:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -1196,13 +1196,13 @@
           "additional_info": {
             "flight_number": "TK127",
             "available_seats": 110,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },{
           "departure_airport": "ADB",
           "arrival_airport": "ESB",
-          "departure_date": "2023-09-15T10:00:00",
-          "arrival_date": "2023-09-15T11:30:00",
+          "departure_date": "2024-02-09T10:00:00",
+          "arrival_date": "2024-02-09T11:30:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -1220,13 +1220,13 @@
           "additional_info": {
             "flight_number": "TK128",
             "available_seats": 110,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },    {
           "departure_airport": "ESB",
           "arrival_airport": "ADB",
-          "departure_date": "2023-09-15T12:30:00",
-          "arrival_date": "2023-09-15T14:00:00",
+          "departure_date": "2024-02-09T12:30:00",
+          "arrival_date": "2024-02-09T14:00:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -1244,13 +1244,13 @@
           "additional_info": {
             "flight_number": "TK129",
             "available_seats": 110,
-            "flight_duration": "1h 30m"
+            "flight_duration":  90
           }
         },{
           "departure_airport": "AYT",
           "arrival_airport": "BJV",
-          "departure_date": "2023-09-15T10:00:00",
-          "arrival_date": "2023-09-15T11:30:00",
+          "departure_date": "2024-02-09T10:00:00",
+          "arrival_date": "2024-02-09T11:30:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -1268,13 +1268,13 @@
           "additional_info": {
             "flight_number": "TK130",
             "available_seats": 110,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },{
           "departure_airport": "BJV",
           "arrival_airport": "AYT",
-          "departure_date": "2023-09-15T12:30:00",
-          "arrival_date": "2023-09-15T14:00:00",
+          "departure_date": "2024-02-09T12:30:00",
+          "arrival_date": "2024-02-09T14:00:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -1292,13 +1292,13 @@
           "additional_info": {
             "flight_number": "TK131",
             "available_seats": 110,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },{
           "departure_airport": "DLM",
           "arrival_airport": "ESB",
-          "departure_date": "2023-09-15T10:00:00",
-          "arrival_date": "2023-09-15T11:30:00",
+          "departure_date": "2024-02-09T10:00:00",
+          "arrival_date": "2024-02-09T11:30:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -1316,13 +1316,13 @@
           "additional_info": {
             "flight_number": "TK132",
             "available_seats": 110,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         },{
           "departure_airport": "ESB",
           "arrival_airport": "DLM",
-          "departure_date": "2023-09-15T12:30:00",
-          "arrival_date": "2023-09-15T14:00:00",
+          "departure_date": "2024-02-09T12:30:00",
+          "arrival_date": "2024-02-09T14:00:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -1340,17 +1340,17 @@
           "additional_info": {
             "flight_number": "TK133",
             "available_seats": 110,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         }      
         
       ],
-      "Sat Sep 16 2023": [
+      "Sat Feb 10 2024": [
         {
           "departure_airport": "ESB",
           "arrival_airport": "ADB",
-          "departure_date": "2023-09-16T10:30:00",
-          "arrival_date": "2023-09-16T11:45:00",
+          "departure_date": "2024-02-10T10:30:00",
+          "arrival_date": "2024-02-10T11:45:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -1368,16 +1368,16 @@
           "additional_info": {
             "flight_number": "PC456",
             "available_seats": 90,
-            "flight_duration": "1h 15m"
+            "flight_duration": 75
           }
         }
       ],
-      "Sun Sep 17 2023": [
+      "Sun Feb 11 2024": [
         {
           "departure_airport": "DLM",
           "arrival_airport": "BJV",
-          "departure_date": "2023-09-17T12:45:00",
-          "arrival_date": "2023-09-17T13:30:00",
+          "departure_date": "2024-02-11T12:45:00",
+          "arrival_date": "2024-02-11T13:30:00",
           "company": "SunExpress",
           "airport_info": {
             "departure": {
@@ -1395,16 +1395,16 @@
           "additional_info": {
             "flight_number": "XQ789",
             "available_seats": 100,
-            "flight_duration": "45m"
+            "flight_duration": 45
           }
         }
       ],
-      "Mon Sep 18 2023": [
+      "Mon Feb 19 2024": [
         {
           "departure_airport": "AYT",
           "arrival_airport": "GZP",
-          "departure_date": "2023-09-18T14:30:00",
-          "arrival_date": "2023-09-18T15:45:00",
+          "departure_date": "2024-02-19T14:30:00",
+          "arrival_date": "2024-02-19T15:45:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -1422,16 +1422,16 @@
           "additional_info": {
             "flight_number": "PC789",
             "available_seats": 80,
-            "flight_duration": "1h 15m"
+            "flight_duration": 75
           }
         }
       ],
-      "Tue Sep 19 2023": [
+      "Tue Feb 20 2024": [
         {
           "departure_airport": "ADA",
           "arrival_airport": "ESB",
-          "departure_date": "2023-09-19T16:45:00",
-          "arrival_date": "2023-09-19T18:15:00",
+          "departure_date": "2024-02-20T16:45:00",
+          "arrival_date": "2024-02-20T18:15:00",
           "company": "Turkish Airlines",
           "airport_info": {
             "departure": {
@@ -1449,16 +1449,16 @@
           "additional_info": {
             "flight_number": "TK456",
             "available_seats": 100,
-            "flight_duration": "1h 30m"
+            "flight_duration": 90
           }
         }
       ],
-      "Wed Sep 20 2023": [
+      "Wed Feb 21 2024": [
         {
           "departure_airport": "BJV",
           "arrival_airport": "ESB",
-          "departure_date": "2023-09-20T09:00:00",
-          "arrival_date": "2023-09-20T10:15:00",
+          "departure_date": "2024-02-21T09:00:00",
+          "arrival_date": "2024-02-21T10:15:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -1476,16 +1476,16 @@
           "additional_info": {
             "flight_number": "PC567",
             "available_seats": 110,
-            "flight_duration": "1h 15m"
+            "flight_duration": 75
           }
         }
       ],
-      "Thu Sep 21 2023": [
+      "Thu Feb 22 2024": [
         {
           "departure_airport": "IST",
           "arrival_airport": "ISL",
-          "departure_date": "2023-09-21T09:30:00",
-          "arrival_date": "2023-09-21T10:15:00",
+          "departure_date": "2024-02-22T09:30:00",
+          "arrival_date": "2024-02-22T10:15:00",
           "company": "Turkish Airlines",
           "airport_info": {
             "departure": {
@@ -1503,16 +1503,16 @@
           "additional_info": {
             "flight_number": "TK789",
             "available_seats": 90,
-            "flight_duration": "45m"
+            "flight_duration": 45
           }
         }
       ],
-      "Fri Sep 22 2023": [
+      "Fri Feb 23 2024": [
         {
           "departure_airport": "ADB",
           "arrival_airport": "ESB",
-          "departure_date": "2023-09-22T11:00:00",
-          "arrival_date": "2023-09-22T12:15:00",
+          "departure_date": "2024-02-23T11:00:00",
+          "arrival_date": "2024-02-23T12:15:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -1530,16 +1530,16 @@
           "additional_info": {
             "flight_number": "PG345",
             "available_seats": 120,
-            "flight_duration": "1h 15m"
+            "flight_duration": 75
           }
         }
       ],
-      "Sat Sep 23 2023": [
+      "Sat Feb 24 2024": [
         {
           "departure_airport": "AYT",
           "arrival_airport": "BJV",
-          "departure_date": "2023-09-23T10:30:00",
-          "arrival_date": "2023-09-23T11:15:00",
+          "departure_date": "2024-02-24T10:30:00",
+          "arrival_date": "2024-02-24T11:15:00",
           "company": "SunExpress",
           "airport_info": {
             "departure": {
@@ -1557,16 +1557,16 @@
           "additional_info": {
             "flight_number": "XQ567",
             "available_seats": 80,
-            "flight_duration": "45m"
+            "flight_duration":  45
           }
         }
       ],
-      "Sun Sep 24 2023": [
+      "Sun Feb 25 2024": [
         {
           "departure_airport": "IST",
           "arrival_airport": "ESB",
-          "departure_date": "2023-09-24T14:00:00",
-          "arrival_date": "2023-09-24T15:15:00",
+          "departure_date": "2024-02-25T14:00:00",
+          "arrival_date": "2024-02-25T15:15:00",
           "company": "Turkish Airlines",
           "airport_info": {
             "departure": {
@@ -1584,16 +1584,16 @@
           "additional_info": {
             "flight_number": "TK567",
             "available_seats": 90,
-            "flight_duration": "1h 15m"
+            "flight_duration": 75
           }
         }
       ],
-      "Mon Sep 25 2023": [
+      "Mon Feb 26 2024": [
         {
           "departure_airport": "ADB",
           "arrival_airport": "IST",
-          "departure_date": "2023-09-25T09:30:00",
-          "arrival_date": "2023-09-25T10:45:00",
+          "departure_date": "2024-02-26T09:30:00",
+          "arrival_date": "2024-02-26T10:45:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -1611,16 +1611,16 @@
           "additional_info": {
             "flight_number": "PG678",
             "available_seats": 100,
-            "flight_duration": "1h 15m"
+            "flight_duration": 75
           }
         }
       ],
-      "Tue Sep 26 2023": [
+      "Tue Feb 27 2023": [
         {
           "departure_airport": "IST",
           "arrival_airport": "DLM",
-          "departure_date": "2023-09-26T12:00:00",
-          "arrival_date": "2023-09-26T13:15:00",
+          "departure_date": "2024-02-27T12:00:00",
+          "arrival_date": "2024-02-27T13:15:00",
           "company": "SunExpress",
           "airport_info": {
             "departure": {
@@ -1638,16 +1638,16 @@
           "additional_info": {
             "flight_number": "XQ678",
             "available_seats": 120,
-            "flight_duration": "1h 15m"
+            "flight_duration": 75
           }
         }
       ],
-      "Wed Sep 27 2023": [
+      "Wed Feb 28 2024": [
         {
           "departure_airport": "AYT",
           "arrival_airport": "GZP",
-          "departure_date": "2023-09-27T14:30:00",
-          "arrival_date": "2023-09-27T15:45:00",
+          "departure_date": "2024-02-28T14:30:00",
+          "arrival_date": "2024-02-28T15:45:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -1665,16 +1665,16 @@
           "additional_info": {
             "flight_number": "PC890",
             "available_seats": 80,
-            "flight_duration": "1h 15m"
+            "flight_duration": 75
           }
         }
       ],
-      "Thu Sep 28 2023": [
+      "Thu Feb 29 2024": [
         {
           "departure_airport": "ESB",
           "arrival_airport": "BJV",
-          "departure_date": "2023-09-28T16:45:00",
-          "arrival_date": "2023-09-28T17:30:00",
+          "departure_date": "2024-02-29T16:45:00",
+          "arrival_date": "2024-02-29T17:30:00",
           "company": "Turkish Airlines",
           "airport_info": {
             "departure": {
@@ -1692,16 +1692,16 @@
           "additional_info": {
             "flight_number": "TK678",
             "available_seats": 90,
-            "flight_duration": "45m"
+            "flight_duration": 45
           }
         }
       ],
-      "Fri Sep 29 2023": [
+      "Fri Mar 01 2024": [
         {
           "departure_airport": "DLM",
           "arrival_airport": "ADA",
-          "departure_date": "2023-09-29T10:00:00",
-          "arrival_date": "2023-09-29T11:15:00",
+          "departure_date": "2024-03-01T10:00:00",
+          "arrival_date": "2024-03-01T11:15:00",
           "company": "SunExpress",
           "airport_info": {
             "departure": {
@@ -1719,16 +1719,16 @@
           "additional_info": {
             "flight_number": "XQ890",
             "available_seats": 120,
-            "flight_duration": "1h 15m"
+            "flight_duration":  75
           }
         }
       ],
-      "Sat Sep 30 2023": [
+      "Sat Mar 02 2024": [
         {
           "departure_airport": "IST",
           "arrival_airport": "ESB",
-          "departure_date": "2023-09-30T12:30:00",
-          "arrival_date": "2023-09-30T13:45:00",
+          "departure_date": "2024-03-02T12:30:00",
+          "arrival_date": "2024-03-02T13:45:00",
           "company": "Pegasus Airlines",
           "airport_info": {
             "departure": {
@@ -1746,16 +1746,16 @@
           "additional_info": {
             "flight_number": "PG789",
             "available_seats": 90,
-            "flight_duration": "1h 15m"
+            "flight_duration":  75
           }
         }
       ],
-      "Sun Oct 01 2023": [
+      "Sun Mar 03 2024": [
         {
           "departure_airport": "AYT",
           "arrival_airport": "BJV",
-          "departure_date": "2023-10-01T09:00:00",
-          "arrival_date": "2023-10-01T09:45:00",
+          "departure_date": "2024-03-03T09:00:00",
+          "arrival_date": "2024-03-03T09:45:00",
           "company": "SunExpress",
           "airport_info": {
             "departure": {
@@ -1773,7 +1773,7 @@
           "additional_info": {
             "flight_number": "XQ901",
             "available_seats": 80,
-            "flight_duration": "45m"
+            "flight_duration": 45
           }
         }
       ]
