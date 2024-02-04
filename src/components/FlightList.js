@@ -21,35 +21,54 @@ export default function FlightList({ data, isLoading, error, oneDirection, depar
         if (data[departureDate]) {
             departureFlights = data[departureDate].filter((info) => {
                 return (
-                    info.airport_info.departure.code.toLocaleLowerCase("tr-TR") === departureCode.toLocaleLowerCase("tr-TR")||
+                    (info.airport_info.departure.code.toLocaleLowerCase("tr-TR") === departureCode.toLocaleLowerCase("tr-TR")||
                     info.airport_info.departure.city.toLocaleLowerCase("tr-TR") === departureCode.toLocaleLowerCase("tr-TR")||
-                    info.airport_info.departure.airport_name.toLocaleLowerCase("tr-TR") === departureCode.toLocaleLowerCase("tr-TR")
+                    info.airport_info.departure.airport_name.toLocaleLowerCase("tr-TR") === departureCode.toLocaleLowerCase("tr-TR"))
+                    && 
+                    (info.airport_info.arrival.code.toLocaleLowerCase("tr-TR") === arrivalCode.toLocaleLowerCase("tr-TR")||
+                    info.airport_info.arrival.city.toLocaleLowerCase("tr-TR") === arrivalCode.toLocaleLowerCase("tr-TR")||
+                    info.airport_info.arrival.airport_name.toLocaleLowerCase("tr-TR") === arrivalCode.toLocaleLowerCase("tr-TR"))
                 );
             });
         }
+        console.log(departureFlights);
 
         // this part filters flights with matching return date
         if (!oneDirection && data && data[returnDate]) {
             returnFlights = data[returnDate].filter((info) => {
                 return (
-                    info.airport_info.departure.code.toLocaleLowerCase("tr-TR")=== arrivalCode.toLocaleLowerCase("tr-TR") ||
+                    (info.airport_info.departure.code.toLocaleLowerCase("tr-TR")=== arrivalCode.toLocaleLowerCase("tr-TR") ||
                     info.airport_info.departure.city.toLocaleLowerCase("tr-TR") === arrivalCode.toLocaleLowerCase("tr-TR")||
-                    info.airport_info.departure.airport_name.toLocaleLowerCase("tr-TR")=== arrivalCode.toLocaleLowerCase("tr-TR")
+                    info.airport_info.departure.airport_name.toLocaleLowerCase("tr-TR")=== arrivalCode.toLocaleLowerCase("tr-TR"))
+                    &&
+                    (
+                        (info.airport_info.arrival.code.toLocaleLowerCase("tr-TR")=== departureCode.toLocaleLowerCase("tr-TR") ||
+                        info.airport_info.arrival.city.toLocaleLowerCase("tr-TR") === departureCode.toLocaleLowerCase("tr-TR")||
+                        info.airport_info.arrival.airport_name.toLocaleLowerCase("tr-TR")=== departureCode.toLocaleLowerCase("tr-TR"))
+                    )
                 );
             });
         }
     }
 
     // if it is not a oneDirection flight it finds best matches considering time
-    const bestMatches = !oneDirection && departureFlights.map((departureFlight) => {
-        const matchingReturnFlights = returnFlights.filter((returnFlight) => {
-            const arrivalTimeDeparture = new Date(departureFlight.arrival_date).getTime();
-            const departureTimeReturn = new Date(returnFlight.departure_date).getTime();
-            return arrivalTimeDeparture < departureTimeReturn;
-        });
-            return [departureFlight, matchingReturnFlights[0]];
-         
-    }).filter((match) => match[1] !== undefined);
+    var bestMatches =  [];
+    if (!oneDirection) {
+         departureFlights.map((departureFlight) => {
+           const matchingReturnFlights = returnFlights.filter((returnFlight) => {
+               const arrivalTimeDeparture = new Date(departureFlight.arrival_date).getTime();
+               const departureTimeReturn = new Date(returnFlight.departure_date).getTime();
+               return arrivalTimeDeparture < departureTimeReturn;
+           });
+   
+           for (let i = 0; i < matchingReturnFlights.length; i++) {
+               bestMatches.push([departureFlight, matchingReturnFlights[i]]);
+           }
+            
+       });
+       bestMatches.filter((match) => match[1] !== undefined);
+      
+    }
 
    if (!oneDirection && bestMatches.length === 0) {
     return (
@@ -140,9 +159,9 @@ export default function FlightList({ data, isLoading, error, oneDirection, depar
                      departureFlights && departureFlights.length > 0 && oneDirection &&
                         departureFlights.map((info) => {
                         return (
-                            <div className="ticket_wrapper">
+                            <div className="ticket_wrapper" key={info.additional_info.flight_number}>
                                 <div className="first_container">
-                                    <FlightListItem  key={info.additional_info.flight_number}
+                                    <FlightListItem  
                                     info={info}                  
                                     />
                                 </div>
@@ -158,12 +177,12 @@ export default function FlightList({ data, isLoading, error, oneDirection, depar
                       departureFlights && departureFlights.length && !oneDirection &&
                       bestMatches.map((info) => {
                           return (
-                            <div className="ticket_wrapper">
+                            <div className="ticket_wrapper"  key={info[0].additional_info.flight_number + info[1].additional_info.flight_number + Math.random()} >
                                 <div className="first_container">
-                                <FlightListItem  key={info[0].additional_info.flight_number + Math.random()}
+                                <FlightListItem
                                     info={info[0]}                   
                                 />
-                                 <FlightListItem  key={info[1].additional_info.flight_number + Math.random()}
+                                 <FlightListItem  
                                     info={info[1]}                   
                                     />
                                 </div>

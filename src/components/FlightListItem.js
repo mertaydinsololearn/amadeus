@@ -38,7 +38,7 @@ export default function FlightListItem({ info }) {
                      </span>
                     <span className="ticket_time">
                          {arrivalDate}
-                    <span className="arrival_info">{info.airport_info.departure.airport_name}({info.airport_info.departure.code})</span>
+                    <span className="arrival_info">{info.airport_info.arrival.airport_name}({info.airport_info.arrival.code})</span>
                 </span>
                 </List.Header>
                 <div>
