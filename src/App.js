@@ -94,16 +94,27 @@ export default function App() {
     }
     
     const currentSuggestions = [];
+    const suggestionList = {};
+
+    // Add suggestions to show for user input
 
     const search = ( input) => {
         codes.map((code) => {
             if (code.airportName.toLocaleLowerCase("tr-TR").includes(input.toLocaleLowerCase("tr-TR"))) {
-               currentSuggestions.push(code.airportName);
+                if (!suggestionList[code.airportName]) {
+                    currentSuggestions.push(code.airportName);
+                    suggestionList[code.airportName] = true;
+                }
             }  if (code.city.toLocaleLowerCase("tr-TR").includes(input.toLocaleLowerCase("tr-TR"))) {
-                currentSuggestions.push(code.city);
+                if (!suggestionList[code.city]) {
+                    currentSuggestions.push(code.city);
+                    suggestionList[code.city] = true;
+                }
             }  if (code.code.toLocaleLowerCase("tr-TR").includes(input.toLocaleLowerCase("tr-TR"))) {
-                currentSuggestions.push(code.code);
-
+                if (!suggestionList[code.code]) {
+                    currentSuggestions.push(code.code);
+                    suggestionList[code.code] = true;
+                }
             }
         });
         setSuggestions(currentSuggestions);

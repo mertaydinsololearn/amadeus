@@ -66,7 +66,7 @@ export default function FlightList({ data, isLoading, error, oneDirection, depar
            }
             
        });
-       bestMatches.filter((match) => match[1] !== undefined);
+      bestMatches = bestMatches.filter((match) => match[1] !== undefined);
       
     }
 
