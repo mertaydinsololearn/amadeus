@@ -23,8 +23,6 @@ const flightsApi = createApi({
 },
 });
 
-
-
 export const { 
 	useGetFlightsQuery
 } = flightsApi;

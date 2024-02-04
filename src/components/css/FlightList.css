@@ -8,7 +8,9 @@
     margin-bottom: 1rem;
 
 }
-
+.react-datepicker-popper {
+    z-index: 1002 !important;
+}
 .ticket {
     display: block;
 }

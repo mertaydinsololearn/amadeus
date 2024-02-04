@@ -6,6 +6,7 @@ import { Checkbox , Message } from 'semantic-ui-react';
 import { AutoComplete } from 'primereact/autocomplete';
 import FlightList from './components/FlightList';
 import AmadeusLogo from "./images/logo.png";
+import Skeleton from 'react-loading-skeleton'
 import tr from "date-fns/locale/tr"; 
 import { codes } from './components/airportCodes';
 import 'semantic-ui-css/semantic.min.css'
@@ -64,6 +65,11 @@ export default function App() {
 		event.stopPropagation();
         let valid = true;
         
+
+
+        if (!departureCodeRef.current || !arrivalCodeRef.current || !departureDateRef.current || returnDateRef.current ) {
+            return;
+        } 
         const departureCodeInput = departureCodeRef.current;
         const arrivalCodeInput = arrivalCodeRef.current;
        const departureInput = departureDateRef.current.input;
@@ -156,7 +162,16 @@ export default function App() {
                 </div>
             </div>
             {
-               data && <FlightList    isLoading={isLoading} data={data} error={error} oneDirection={oneDirection} departureDate={departureDate} 
+                error && error.data &&  <Message negative>
+                <Message.Header>Veritabanında bir hata oluştu!</Message.Header>
+                <p>Lütfen kısa bir süre sonra tekrar deneyin</p>
+                </Message>
+            }
+             {
+                isLoading == true &&  <Skeleton count={10} />
+             }
+            {
+               data && <FlightList    data={data}  oneDirection={oneDirection} departureDate={departureDate} 
                 arrivalCode={arrivalCode} returnDate={returnDate} departureCode={departureCode}/>
             } 
             {

@@ -2,7 +2,6 @@ import { useState } from 'react';
 import FlightListItem from './FlightListItem';
 import {  Dropdown, Message, List } from 'semantic-ui-react';
 import DismissableMessage from './DismissableMessage';
-import Skeleton from 'react-loading-skeleton'
 import './css/FlightList.css';
 
 
@@ -70,15 +69,8 @@ export default function FlightList({ data, isLoading, error, oneDirection, depar
     }
 
     // Check if one direction or two direction flight is found && if not found display a user friendly message && check for error
-
-    if (error) {
-        return (
-            <Message negative>
-            <Message.Header>Veritabanında bir hata oluştu!</Message.Header>
-            <p>Lütfen kısa bir süre sonra tekrar deneyin</p>
-            </Message>
-        );
-    } else if (!isLoading &&  oneDirection && data  &&  departureFlights.length == 0 ) {
+    
+    if (!isLoading &&  oneDirection && data  &&  departureFlights.length == 0 ) {
         return (
             <DismissableMessage header="Uçuş Bulunamadı">
             Aradığınız Tarihlerde Uçuş Bulunamadı
@@ -136,9 +128,6 @@ export default function FlightList({ data, isLoading, error, oneDirection, depar
 
     return (
         <div id="flight_results">
-            {isLoading &&
-                <Skeleton count={10} />
-            }
                 {
                      departureFlights && departureFlights.length &&
                     <Dropdown
