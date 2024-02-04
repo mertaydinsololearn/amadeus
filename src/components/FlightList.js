@@ -31,7 +31,6 @@ export default function FlightList({ data, isLoading, error, oneDirection, depar
                 );
             });
         }
-        console.log(departureFlights);
 
         // this part filters flights with matching return date
         if (!oneDirection && data && data[returnDate]) {
@@ -70,13 +69,31 @@ export default function FlightList({ data, isLoading, error, oneDirection, depar
       
     }
 
-   if (!oneDirection && bestMatches.length === 0) {
-    return (
-        <DismissableMessage header="Uçuş Bulunamadı">
-        Aradığınız Tarihlerde Uçuş Bulamadık
-         </DismissableMessage>
-    )
-   } 
+    // Check if one direction or two direction flight is found && if not found display a user friendly message && check for error
+
+    if (error) {
+        return (
+            <Message negative>
+            <Message.Header>Veritabanında bir hata oluştu!</Message.Header>
+            <p>Lütfen kısa bir süre sonra tekrar deneyin</p>
+            </Message>
+        );
+    } else if (!isLoading &&  oneDirection && data  &&  departureFlights.length == 0 ) {
+        return (
+            <DismissableMessage header="Uçuş Bulunamadı">
+            Aradığınız Tarihlerde Uçuş Bulunamadı
+            </DismissableMessage>
+        );   
+    } else if (!oneDirection && bestMatches.length === 0) {
+        return (
+            <DismissableMessage header="Uçuş Bulunamadı">
+                Aradığınız Tarihlerde Uçuş Bulunamadı
+            </DismissableMessage>
+            );
+   }  
+
+
+   // Sort the flights whether one direction is selected or not
 
     if (selected === "Fiyat") {
         if (oneDirection) {
@@ -120,21 +137,7 @@ export default function FlightList({ data, isLoading, error, oneDirection, depar
     return (
         <div id="flight_results">
             {isLoading &&
-                < Skeleton count={10} />
-            }
-            {
-                error &&     
-                <Message negative>
-                    <Message.Header>Veritabanında bir hata oluştu!</Message.Header>
-                    <p>Lütfen kısa bir süre sonra tekrar deneyin</p>
-              </Message>
-            
-            }
-            {
-                   !error && !isLoading && data  &&  departureFlights.length == 0 &&
-                   <DismissableMessage header="Uçuş Bulunamadı">
-                       Aradığınız Tarihlerde Uçuş Bulamadık
-                   </DismissableMessage>
+                <Skeleton count={10} />
             }
                 {
                      departureFlights && departureFlights.length &&

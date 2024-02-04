@@ -58,6 +58,7 @@ export default function App() {
 
 }, [oneDirection]);
 
+// Validate user input and show warning if it's not correct
     const handleClick = (event) => {
         event.preventDefault();
 		event.stopPropagation();
@@ -96,7 +97,7 @@ export default function App() {
     const currentSuggestions = [];
     const suggestionList = {};
 
-    // Add suggestions to show for user input
+    // Add suggestions to show for user input &&  do not display same suggestions
 
     const search = ( input) => {
         codes.map((code) => {
