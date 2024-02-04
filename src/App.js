@@ -67,7 +67,7 @@ export default function App() {
         
 
 
-        if (!departureCodeRef.current || !arrivalCodeRef.current || !departureDateRef.current ) {
+        if (!departureCodeRef.current || !arrivalCodeRef.current || !departureDateRef.current || (!oneDirection && !returnDateRef.current) ) {
             return;
         } 
         const departureCodeInput = departureCodeRef.current;
@@ -126,7 +126,6 @@ export default function App() {
         });
         setSuggestions(currentSuggestions);
     }
-    console.log(isLoading, error);
     return (
         <div id="container">
              <div id="flight_search">  
